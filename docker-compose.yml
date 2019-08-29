@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  products:
+    build: ./products
+    volumes: 
+      - ./products:/usr/src/app
+    ports: 
+      - 5001:80
+  ui:
+    build: ./ui
+    volumes: 
+      - ./ui:/usr/src/app
+    ports:
+      - 5002:80
