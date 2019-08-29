@@ -1,0 +1,1 @@
+Flask to build a basic API returning products JSON > dockerfile to load from Python3 and install dependencies from requirements.txt > UI is a basic express server listening to get request and calls Python with http://products and returns JSON of the products > docker-compose.yml controls both > had some issues with the NODE volume
